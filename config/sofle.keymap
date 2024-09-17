@@ -16,17 +16,19 @@
 #define RAISE 2
 #define ADJUST 3
 
-/ {
-    // adjust encoder config
-    &sensors {
-        left_config {
-            triggers-per-rotation = <30>; // default is 20
-        };
 
-        right_config {
-            triggers-per-rotation = <30>; // default is 20
-        };
+// adjust encoder config
+&sensors {
+    left_config {
+        triggers-per-rotation = <30>; // default is 20
     };
+
+    right_config {
+        triggers-per-rotation = <30>; // default is 20
+    };
+};
+
+/ {
 
    // Activate ADJUST layer by pressing raise and lower
     conditional_layers {
