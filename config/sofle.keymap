@@ -162,7 +162,7 @@
 
             bindings = <
                 &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                     &out OUT_USB &out OUT_BLE &trans    &trans    &trans  &trans
-                &trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                           &kp PG_UP    &PG_DN       &kp HOME  &kp END   &trans  &kp DEL
+                &trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                           &kp PG_UP    &kp PG_DN    &kp HOME  &kp END   &trans  &kp DEL
                 &trans     &trans       &trans       &trans       &trans       &kp CLCK                         &kp LEFT     &kp DOWN     &kp UP    &kp RIGHT &trans  &trans
                 &trans     &trans       &trans       &trans       &trans       &trans        &trans     &trans  &trans       &trans       &trans    &trans    &trans  &trans
                                         &trans       &trans       &trans       MEH           MEH        &trans  &trans       &trans       &trans    &trans
