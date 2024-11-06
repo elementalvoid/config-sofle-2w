@@ -28,7 +28,7 @@
 #define RAISE 2
 #define ADJUST 3
 
-#define MEH &kp LC(LA(GUI))
+#define MEH &kp LC(LA(LMETA))
 
 / {
 
