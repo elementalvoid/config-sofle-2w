@@ -1,20 +1,28 @@
 # Sofle v2.0w ZMK Configuration
 
-This is a custom configuration for the Sofle v2.0w (as found here: https://github.com/josefadamcik/SofleKeyboard/pull/180).
+This is my configuration for the Sofle v2.0w (as found here: https://github.com/josefadamcik/SofleKeyboard/pull/180).
 
-## Installation
+## My configuration
+
+- I'm building against an active fork of ZMK so that I can configure the right side's encoder as a mouse scroll whell.
+- Either raise/lower layer plus the thumb for a sticky `MEH` key.
+- The top right key on the right side is bound to `F24`.
+- The `adjust` layer is effectively disabled (all keys mapped to `&none`) as I don't use it.
+- Deep sleep is enabled.
+
+For a case, I'm using the [bottom from here](https://www.printables.com/model/825787-sofle-v2-case-remix) (without a top).
+
+## Building and configuring
 
 Refer to the [v2 build guide](https://josefadamcik.github.io/SofleKeyboard/build_guide.html) for installation instructions.
 
 Note that the Bill of Materials (BOM) is slightly different:
-- Uses nice!nanov2
+- Uses nice!nano v2.0
 - ALPS power switch
 - JST connectors for battery
 - Removal of the TRRS connectors
 - Kailh MX or Choc hotswap switch support
 - Optional nice!view
-
-## Usage
 
 Regarding the batter/JST connections:
 
@@ -28,6 +36,7 @@ To use the nice!view:
     ```c
     &nice_view_spi { cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>; };
     ```
+
 ## References
 
 - [Sofle Keyboard Main Repository](https://github.com/josefadamcik/SofleKeyboard)
