@@ -28,7 +28,8 @@
 #define RAISE 2
 #define ADJUST 3
 
-#define MEH &kp LC(LA(LMETA))
+// MEH is sticky
+#define MEH &sk LC(LA(LMETA))
 
 / {
 
