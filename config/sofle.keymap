@@ -13,6 +13,9 @@
 
 // Sofle defaults: https://github.com/zmkfirmware/zmk/blob/main/app/boards/shields/sofle/sofle.dtsi
 
+// Enable nice!view
+&nice_view_spi { cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>; };
+
 // If needed, adjust the value of ZMK_MOUSE_DEFAULT_SCRL_VAL, must be done before including mouse.h
 // ref: https://github.com/zmkfirmware/zmk/issues/72#issuecomment-2081690485
 // and: https://github.com/zmkfirmware/zmk/pull/2027#issuecomment-2130938216
