@@ -318,5 +318,5 @@ const lv_img_dsc_t ninja = {
   .header.w = 140,
   .header.h = 68,
   .data_size = 1232,
-  .data = nice_ninja_map,
+  .data = ninja_map,
 };
